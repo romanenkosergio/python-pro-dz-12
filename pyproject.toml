@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pythonpro-dz-12"
+version = "0.1.0"
+description = ""
+authors = ["Serhii Romanenko <sergromanenko97@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pythonpro_dz_12"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+faker = "^18.9.0"
+django-bootstrap-v5 = "^1.0.11"
+redis = {extras = ["hiredis"], version = "^4.5.5"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
